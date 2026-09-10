@@ -78,9 +78,11 @@ WSGI_APPLICATION = 'cyberbullyingdetection.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'cyberbullying',
-        'USER': 'root',
-        'PASSWORD': 'root',
+        'NAME': os.environ.get('DB_NAME', 'cyberbullying'),
+        'USER': os.environ.get('DB_USER', 'root'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', 'root'),
+        'HOST': os.environ.get('DB_HOST', ''),
+        'PORT': os.environ.get('DB_PORT', '3306'),
     }
 }
 
