@@ -36,3 +36,6 @@ myapp/testi.py
 myapp/tnew.py
 myapp/test_multi.csv
 myapp/static/testfi.py
+
+# Collected static files
+staticfiles/
