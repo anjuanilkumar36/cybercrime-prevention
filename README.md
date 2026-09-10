@@ -29,7 +29,7 @@ Built as a **B.Tech Computer Science & Engineering final-year team project**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🔗 Tech Stack
 
 **Frontend:** JavaScript, HTML, CSS
 
