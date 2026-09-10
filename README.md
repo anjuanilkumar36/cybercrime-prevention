@@ -19,6 +19,7 @@ Built as a **B.Tech Computer Science & Engineering final-year team project**.
 ## 🖥️ Project Showcase
 
 ### Home Page
+<img src="https://skillicons.dev/icons?i=python,c,javascript" />
 <!-- Add your screenshot here -->
 
 ### Comment Detection
@@ -35,7 +36,7 @@ Built as a **B.Tech Computer Science & Engineering final-year team project**.
 
 **Backend:** Python, Django
 
-**AI/ML:** Deep Learning, LSTM, Image Analysis
+**AI/ML:** Deep Learning, Random forest, Image Analysis
 
 **Database:** MySQL
 
