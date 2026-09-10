@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django
+*.log
+db.sqlite3
+
+# PyCharm
+.idea/
+
+# Environment / secrets
+.env
+
+# Media uploads
+media/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary/test files
+*_jb_old___
+*_jb_tmp___
+myapp/testi.py
+myapp/tnew.py
+myapp/test_multi.csv
+myapp/static/testfi.py

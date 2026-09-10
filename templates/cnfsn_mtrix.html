@@ -1,0 +1,56 @@
+{% extends 'homeindex.html' %}
+
+{% block body %}
+    <h1 align="center">PERFORMANCE EVALUATION</h1>
+    <br>
+    <br>
+<table class="table table-striped table-hover" style="width: 300px;height: 300px" border="1px" bordercolor="white">
+
+    <tr>
+        <td style="width: 100px;width: 100px"></td>
+        <td style="width: 100px;width: 100px">Bullying</td>
+        <td style="width: 100px;width: 100px">NotBullying</td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;width: 100px">Bullying</td>
+        <td style="width: 100px;width: 100px; color: #34ce57 ">{{ cf.0.0 }}</td>
+        <td style="width: 100px;width: 100px; color: #a71d2a">{{ cf.0.1 }}</td>
+    </tr>
+    <tr>
+        <td style="width: 100px;width: 100px">NotBullying</td>
+        <td style="width: 100px;width: 100px; color: #a71d2a">{{ cf.1.0 }}</td>
+        <td style="width: 100px;width: 100px; color: #34ce57">{{ cf.1.1 }}</td>
+    </tr>
+</table>
+
+<br>
+<br>
+
+
+<table class="table table-bordered" border="1" >
+    <tr>
+        <td>Accuracy</td>
+        <td>{{ acc }}</td>
+    </tr>
+    <tr>
+        <td>f1 score</td>
+        <td>{{ f1score }}</td>
+    </tr>
+    <tr>
+        <td>Recall Score</td>
+        <td>{{ rec }}</td>
+    </tr>
+    <tr>
+        <td>Precision Score</td>
+        <td>{{ pre }}</td>
+    </tr>
+
+
+</table>
+
+
+{#    <img src="/media/roc_curve.png"/>#}
+
+
+{% endblock %}

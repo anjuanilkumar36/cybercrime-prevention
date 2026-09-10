@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+</head>
+<body>
+    <h1>Error Processing Request</h1>
+    <p><strong>Error:</strong> {{ error_message }}</p>
+    {% if error_details %}
+    <details>
+        <summary>Technical Details</summary>
+        <pre>{{ error_details }}</pre>
+    </details>
+    {% endif %}
+    <a href="/">Return to Home</a>
+</body>
+</html>
