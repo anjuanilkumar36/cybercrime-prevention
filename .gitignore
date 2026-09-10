@@ -39,3 +39,5 @@ myapp/static/testfi.py
 
 # Collected static files
 staticfiles/
+
+cyberbullying__detection.sql
