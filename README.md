@@ -68,7 +68,7 @@ My responsibilities included:
 
 ---
 
- **🔗 Repository:** git clone https://github.com/anjuanilkumar36/cybercrime-prevention.git
+ **🔗 Repository:** https://github.com/anjuanilkumar36/cybercrime-prevention.git
 
 This repository contains the source code and implementation of the project.
 
