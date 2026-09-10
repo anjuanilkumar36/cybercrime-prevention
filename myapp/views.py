@@ -1,5 +1,6 @@
 import datetime
 
+
 from PIL import Image
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
@@ -10,6 +11,11 @@ from django.core.files.storage import FileSystemStorage
 from django.db.models import Q
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import redirect
+import os
+import pickle
+from django.conf import settings
+
+MODEL_PATH = os.path.join(settings.BASE_DIR, 'enhanced_toxic_model.pkl')
 from keras import *
 
 # Create your views here.
@@ -1696,7 +1702,7 @@ Respond ONLY with this exact JSON format:
                 'model': self.model,
                 'vectorizer': self.vectorizer,
             }
-            with open('enhanced_toxic_model.pkl', 'wb') as f:
+            with open(MODEL_PATH, 'wb') as f:
                 pickle.dump(model_data, f)
             print("💾 Model saved successfully!")
         except Exception as e:
@@ -1705,8 +1711,8 @@ Respond ONLY with this exact JSON format:
     def load_model(self):
         """Load trained model"""
         try:
-            if os.path.exists('enhanced_toxic_model.pkl'):
-                with open('enhanced_toxic_model.pkl', 'rb') as f:
+            if os.path.exists(MODEL_PATH):
+                with open(MODEL_PATH, 'rb') as f:
                     model_data = pickle.load(f)
                 self.model = model_data['model']
                 self.vectorizer = model_data['vectorizer']
@@ -1719,7 +1725,6 @@ Respond ONLY with this exact JSON format:
         except Exception as e:
             print(f"❌ Error loading model: {e}")
             return self.train_ml_model()
-
 
 # DJANGO VIEW
 def user_addcomment(request):
