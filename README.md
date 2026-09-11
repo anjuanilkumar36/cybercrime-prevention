@@ -23,9 +23,11 @@ Built as a **B.Tech Computer Science & Engineering final-year team project**.
 <!-- Add your screenshot here -->
 
 ### Comment Detection
+<img src="https://skillicons.dev/icons?i=python,c,javascript" />
 <!-- Add your screenshot here -->
 
-### Detection Result / Warning
+### Image Masked
+<img src="https://skillicons.dev/icons?i=python,c,javascript" />
 <!-- Add your screenshot here -->
 
 ---
