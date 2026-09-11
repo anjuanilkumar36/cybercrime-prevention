@@ -65,7 +65,11 @@ My responsibilities included:
 
 **Type:** Final Year B.Tech Project  
 **Domain:** AI / Web Development  
-**Team Project:** Anju Anilkumar, Bini Sabu, Devika Manoj, Keerthana R Nair
+**Team Project:** 
+- Anju Anilkumar
+- Bini Sabu 
+- Devika Manoj 
+- Keerthana R Nair
 
 ---
 
