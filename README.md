@@ -19,15 +19,15 @@ Built as a **B.Tech Computer Science & Engineering final-year team project**.
 ## 🖥️ Project Showcase
 
 ### Home Page
-<img Home Page.jpeg width="200" height="300" />
+<img src = "Home Page.jpeg" width="200" height="300" />
 <!-- Add your screenshot here -->
 
 ### Comment Detection
-<img Comment Detection.jpeg width="200" height="300" />
+<img src = "Comment Detection.jpeg" width="200" height="300" />
 <!-- Add your screenshot here -->
 
 ### Image Masked
-<img Image Masked.jpeg width="200" height="300" />
+<img src = "Image Masked.jpeg" width="200" height="300" />
 <!-- Add your screenshot here -->
 
 ---
