@@ -19,15 +19,15 @@ Built as a **B.Tech Computer Science & Engineering final-year team project**.
 ## 🖥️ Project Showcase
 
 ### Home Page
-<img src="https://skillicons.dev/icons?i=python,c,javascript" />
+<img Image Masked.jpeg width="200" height="300" />
 <!-- Add your screenshot here -->
 
 ### Comment Detection
-<img src="https://skillicons.dev/icons?i=python,c,javascript" />
+<img Image Masked.jpeg width="200" height="300" />
 <!-- Add your screenshot here -->
 
 ### Image Masked
-<img src="https://skillicons.dev/icons?i=python,c,javascript" />
+<img Image Masked.jpeg width="200" height="300" />
 <!-- Add your screenshot here -->
 
 ---
